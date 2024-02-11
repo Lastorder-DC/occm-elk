@@ -103,13 +103,13 @@ export default defineNuxtConfig({
       apiToken: '',
     },
     public: {
-      privacyPolicyUrl: '',
+      privacyPolicyUrl: 'https://occm.cc/privacy-policy',
       // We use LibreTranslate (https://github.com/LibreTranslate/LibreTranslate) as
       // our default translation server #76
       translateApi: '',
       // Use the instance where Elk has its Mastodon account as the default
-      defaultServer: 'm.webtoo.ls',
-      singleInstance: false,
+      defaultServer: 'occm.cc',
+      singleInstance: true,
     },
     storage: {
       fsBase: 'node_modules/.cache/app',
